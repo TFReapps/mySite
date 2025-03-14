@@ -1,0 +1,42 @@
+body{
+    background-color: #483c3c;
+    color: #f8f3e2;
+    background-attachment: fixed;
+}
+  
+canvas{
+  image-rendering:pixelated;
+  width: 90vw;
+  height: 50vw;
+  box-shadow: 0px 0px 9px 6px #f8f3e2;
+  background: url('https://cdn2.vectorstock.com/i/1000x1000/52/41/seamless-cartoon-nature-background-with-separate-vector-20085241.jpg');
+  /* background-repeat: repeat-x; */
+  /* animation: slide 20s infinite linear; */
+  background-size: 100vw 120%;
+  margin-top: 30px;
+}
+
+
+.controls, select, option{
+    font-size: 25px;
+}
+
+/* Tutorial : https://www.youtube.com/watch?v=XnhzwAhV978 
+This enables to slide the background so it moves from right to left*/
+@keyframes slide{
+  to {background-position: -100vw 0vh}
+}
+
+
+/* Gifs of wormholes :
+https://thumbs.gfycat.com/PastelGoldenJuliabutterfly-size_restricted.gif
+https://i.giphy.com/media/mX1bWOEGPIAY1yhmKI/giphy.webp
+https://scitechdaily.com/images/Wormhole-Concept.gif
+https://media.tenor.com/mny-6-XqV1kAAAAd/wormhole.gif
+https://i0.wp.com/scifi.radio/wp-content/uploads/2021/12/loop-hyper.gif?resize=640%2C360&ssl=1
+https://i.pinimg.com/originals/26/ef/5a/26ef5aebb8ae9aec3b8c4c3eba940d0f.gif
+
+
+Space background (fixed)
+https://img.freepik.com/free-vector/mars-landscape-alien-planet-martian-background_107791-1781.jpg?w=1380&t=st=1681978328~exp=1681978928~hmac=265b9baafbe687d427d34c4fdbadd711324ae9abf0a3faaaa1df1dd1ceb8c039
+*/

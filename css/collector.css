@@ -1,0 +1,18 @@
+body{
+    background-color: #483c3c;
+    font-family: fantasy;
+}
+
+#canvas{
+    box-shadow: 0px 0px 15px 2px #f8f3e2;
+    width: 90%;
+    background: #f8f3e2;
+    font-family: fantasy;
+    background-repeat: repeat;
+}
+
+#header{
+    color: #f8f3e2;
+    padding-bottom: 5px;
+  }
+  

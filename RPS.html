@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissorsLizardSpock</title>
+  
+    <link rel="stylesheet" href="./css/TU.css"> 
+    <link rel="stylesheet" href="./css/RPS.css">
+</head>
+<body >
+    <!-- NavBar-->
+    <div class="TU-top">
+        <div class="TU-bar TU-teal TU-card TU-left-align TU-large">
+          <img id="myLogo" src="https://tekkieuni.com/wp-content/themes/tekkie/images/logo-color.png.webp" alt="logo">
+          <a href="./index.html#top" class="TU-bar-item TU-button TU-hover-white TU-padding-large">Home</a>
+          <a href="./index.html#about" class="TU-bar-item TU-button TU-padding-large TU-hover-white">About Me</a>
+          <a href="RPS.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white TU-white">RPSLS Game</a>
+          <a href="myBalloonsGame.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Balloons Game</a>
+          <a href="./evenNotDali.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Even Not Dali</a>
+          <a href="./howToTrainYourDragon.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">How to train your dragon</a>
+          <a href="./collector.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Collector</a>
+        </div>
+    </div>
+   <!-- END NavBar-->
+
+
+      <!-- The Game -->
+    <div id="wrapper" style="padding:10% 16px">
+      <h1 id="gameTitle">Rock - Paper - Scissors - Lizard - Spock</h1>
+      <img id="rules" src="images/rules.png">
+      <!-- <h3 id="rules">Rock beats Scissors<br>Scissors beat Paper<br>Paper beats Rock</h3> -->
+
+      <div id="scoreBoard">
+          <div id="userLabel1" class="badge">User</div>
+          <div id="computerLabel" class="badge">Computer</div>
+          <!-- <div id="userChoiceIcon" class="badge"></div>
+          <div id="computerChoiceIcon" class="badge"></div> -->
+          <span id="userScore">0</span>:<span id="computerScore">0</span>
+      </div>
+      
+      <div id="userArea" class="userArea">
+          <h2 id="instructions">Make your move!</h2>
+          <img id="spockDiv" src="images/spock.png" class="rps">
+          <img id="rockDiv" src="images/rock.png" class="rps">
+          <img id="paperDiv" src="images/paper.png" class="rps">
+          <img id="scissorsDiv" src="images/scissors.png" class="rps">
+          <img id="lizardDiv" src="images/lizard.png" class="rps">
+          <!-- </div> -->
+      </div>  
+
+      <div id="message"></div>
+    </div>
+      <!-- END The Game -->
+
+
+    <!--Footer-->
+    <div class="TU-container TU-black TU-center TU-opacity TU-padding-64">
+      <h1 class="TU-margin TU-xlarge">"If I have seen further, it is by standing on the shoulders of Giants" - Isaac Newton</h1>
+    </div>
+    <!--END Footer -->
+
+    <script src="./js/RPS.js"></script>
+</body>
+</html>

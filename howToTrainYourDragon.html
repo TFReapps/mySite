@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Train Your Dragon</title>
+  
+    <link rel="stylesheet" href="./css/TU.css">
+    <link rel="stylesheet" href="./css/howToTrainYourDragon.css">
+</head>
+<body >
+    <!-- Navbar-->
+    <div class="TU-top">
+        <div class="TU-bar TU-teal TU-card TU-left-align TU-large">
+          <img id="myLogo" src="https://tekkieuni.com/wp-content/themes/tekkie/images/logo-color.png.webp" alt="logo">
+          <a href="./index.html#top" class="TU-bar-item TU-button TU-hover-white TU-padding-large">Home</a>
+          <a href="./index.html#about" class="TU-bar-item TU-button TU-padding-large TU-hover-white">About Me</a>
+          <a href="./RPS.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">RPSLS Game</a>
+          <a href="myBalloonsGame.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Balloons Game</a>
+          <a href="./evenNotDali.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Even Not Dali</a>
+          <a href="./howToTrainYourDragon.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white TU-white">How to train your dragon</a>
+          <a href="./collector.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Collector</a>
+        </div>
+    </div>
+    <!-- END Navbar -->
+
+
+  <!-- The Game template -->
+    <div id="wrapper" style="padding:10% 5px">
+      <div class="controls">
+          <label for="sprites">Choose a sprite</label>
+          <select  id="sprites" onchange="setSprite(event)">
+          <option value="dragon">Dragon</option>
+          <option value="elephant">Elephant</option>
+          <option value="pig">Pig</option>
+          <option value="bird">Bird</option>
+        </select> 
+        
+        <div id="animationOptions">
+          <label for="animations">Choose Animation</label>
+          <select  id="animations" onchange="setState(event)">
+            <option value="idle">Idle</option>
+            <option value="sleep">Sleep</option>
+            <option value="jump">Jump</option>
+            <option value="run">Run</option>
+            <option value="walk">Walk</option>
+          </select>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+  <!-- END The Game template -->
+
+  
+
+  <!--Footer For the Template per game-->
+    <div class="TU-container TU-black TU-center TU-opacity TU-padding-64">
+      <h1 class="TU-margin TU-xlarge">"If I have seen further, it is by standing on the shoulders of Giants" - Isaac Newton</h1>
+    </div>
+  <!--END Footer For the Template per game-->
+  <script src= "js/howToTrainYourDragon.js"></script>
+</body>
+</html>
+

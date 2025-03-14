@@ -1,0 +1,59 @@
+body{
+    background-color: #f8f3e2;
+    background-size: cover;
+    /* background: black; */
+    color: #f0533b;
+    background-attachment: fixed;
+}
+
+.yellowBalloon{
+    width: 100px;
+    height: 132px;
+    /* background-color: brown; */
+}
+
+.redBalloon{
+    width: 100px;
+    height: 132px;
+    /* background-color: brown; */
+}
+
+#gameTitle{
+    color: #f0533b;
+    /* background-color: brown; */
+    text-shadow: 2px 5px 15px #142B43;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+#gameInstructions{
+    /* background-color: brown; */
+    width: 100px;
+    height: 42px;
+}
+
+#restart{
+    background-color: #0e747c;
+    color: #f8f3e2;
+    font-family: fantasy;
+}
+
+#wrapper{
+    /* background-color: brown; */
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+#myName{
+    background-image: url(images/bgImage1.png);
+    background-size: cover;
+    text-align: center;
+    max-width: 200px;
+    height: 112px;
+    font-family: fantasy;
+    margin : auto;
+    font-size: 70px;
+    color: f0533b;
+
+}

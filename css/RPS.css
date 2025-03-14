@@ -1,0 +1,78 @@
+#wrapper{
+    text-align: center;
+    font-family: monospace;
+    background-color: #F8F3E2;  
+    color:#142B43  
+}
+
+#rules{
+    width: 30%;
+    height: 30%;
+}
+
+#gameTitle{
+    font-family:fantasy;
+    font-size: 40px;
+    color: #142B43;
+    text-shadow:0 0 7px #0E747C;
+    margin-bottom: 1px;
+}
+
+.userArea img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.rps{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 30%;
+    /* border: 10px solid rgb(0, 72, 255); */
+    /* padding: 1px; */
+
+}
+
+#scoreBoard{
+    border: 3px solid #142B43;
+    width : 150px;
+    margin: 10px auto;
+    font-size: 55px;
+    border-radius: 25%;
+    padding: 15px;
+    position: relative;
+    font-family: fantasy ;
+    color : #142B43
+}
+
+.badge{
+    color: #f8f3e2;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#userLabel1{
+    background-color: #0E747C;
+    position: absolute;
+    left: -80px;
+    top: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+#computerLabel{
+    background-color: #f0533b;
+    position:absolute;
+    right: -80px;
+    top: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+#message{
+    font-size: 40px;
+    font-family: fantasy;
+    margin-top: 10px;
+}
